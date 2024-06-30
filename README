@@ -1,0 +1,9 @@
+# Alembic
+
+This directory contains the Alembic migration environment.
+
+## Usage
+
+1. Initialize the environment: `alembic init alembic`
+2. Create a new migration: `alembic revision --autogenerate -m "Migration message"`
+3. Apply migrations: `alembic upgrade head`
